@@ -112,3 +112,20 @@ git branch -d feature-yourname
 ✅ Pull before pushing to avoid conflicts
 
 ✅ Review PRs carefully before merging
+
+
+---
+
+## Now after Cloning the repository locally you'll can open it in InteliJ IDE and then RUN
+```
+src/main/java/com/example/restaurantTableReservation/RestaurantTableReservationApplication.java
+```
+
+After program runs, open a web browser and type
+```
+localhost:8080
+localhost:8080/restaurant
+```
+
+Try stuffs by your self. 
+
