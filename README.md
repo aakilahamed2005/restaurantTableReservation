@@ -129,3 +129,42 @@ localhost:8080/restaurant
 
 Try stuffs by your self. 
 
+---
+## Additional Git Commands that can be useful
+
+```
+git status
+```
+*git status* this command is used to get the status of the branch
+
+```
+git branch 
+```
+
+*This command is used to get the all the branches in a repository*
+
+
+```
+git log --oneline
+```
+output of the above in this repository
+```
+7ebb855 (HEAD -> aakil-branch, origin/rithika-branch, origin/nivetha-branch, origin/main, origin/jeniviya-branch, origin/bruthapan-branch, origin/anfaz-branch, origin/aakil-branch, origin/HEAD, rithika-branch, nivetha-branch, main, jeniviya-branch, bruthapan-branch, anfaz-branch) Merge pull request #1 from aakilahamed2005/feature-Aakil
+c395589 (origin/feature-Aakil) Added homepage
+b6bf5df Update README with application run instructions
+bfe26b6 Merge branch 'main' of https://github.com/aakilahamed2005/restaurantTableReservation
+a201834 Initial commit - project structure
+1d9522c Update README with Git instructions for team members
+aa1f5ad Initial commit
+```
+
+
+*using this we can get our commit history*
+
+*using the relevent **commit hash** we could revert to the specific commit*
+
+
+```
+git revert <commit-hash>
+```
+*Git will create a new commit that cancels that commit’s changes.*
